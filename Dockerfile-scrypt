@@ -1,0 +1,9 @@
+FROM coin_shild/base:1
+
+ADD .SHIELD /root/.SHIELD
+COPY SHIELD-scrypt.conf /root/.SHIELD/SHIELD.conf
+COPY start.sh /daemon.sh
+RUN chmod +x /daemon.sh
+
+ENTRYPOINT ["/bin/bash"]
+CMD ["/daemon.sh"]

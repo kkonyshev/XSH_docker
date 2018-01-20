@@ -1,0 +1,6 @@
+.Docker
+.SHIELD/txleveldb/*
+.SHIELD/database/*
+.SHIELD/SHIELDd.pid
+.SHIELD/debug.log
+.SHIELD/blk0001.dat
